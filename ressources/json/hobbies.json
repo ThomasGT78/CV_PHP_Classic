@@ -1,0 +1,63 @@
+[
+    {
+        "hobby_name": "Voyage",
+        "hobby_field": "Culture",
+        "hobby_exp": "2011 : Tour du monde en auto-stop de 5 ans, 30 pays, plus de 100 milles km à travers l’Europe, le Moyen-Orient, l’Asie, l’Océanie et l’Amérique du Sud.",
+        "hobby_interest": "[`Aventure`, `Nature`, `Rencontrer`, `Découvrir`, `Se découvrir`, `Évoluer`, `Cultures`, `Mode de pensée`, `Philosophies de vie`, `Cuisines`,`Langages`]"
+    },
+    {
+        "hobby_name": "Cuisine",
+        "hobby_field": "Culture",
+        "hobby_exp": "",
+        "hobby_interest": "[`Créer`, `Expérimenter`, `Découvrir`, `Cultures`, `Mode de pensée`, `Santé`]"
+    },
+    {
+        "hobby_name": "Langues étrangères",
+        "hobby_field": "Culture",
+        "hobby_exp": "",
+        "hobby_interest": "[``, ``]"
+    },
+    {
+        "hobby_name": "Développement Durable",
+        "hobby_field": "Tech",
+        "hobby_exp": "",
+        "hobby_interest": "[``, ``]"
+    },
+    {
+        "hobby_name": "Basquet, volley",
+        "hobby_field": "Sport",
+        "hobby_exp": "",
+        "hobby_interest": "[``, ``]",
+        "hobby_values": ""
+    },
+    {
+        "hobby_name": "Trekking",
+        "hobby_field": "Sport",
+        "hobby_exp": "",
+        "hobby_interest": "[``, ``]"
+    },
+    {
+        "hobby_name": "Ski, Snowboard",
+        "hobby_field": "Sport",
+        "hobby_exp": "",
+        "hobby_interest": "[``, ``]"
+    },
+    {
+        "hobby_name": "Gymnastique, capoera",
+        "hobby_field": "Sport",
+        "hobby_exp": "",
+        "hobby_interest": "[``, ``]"
+    },
+    {
+        "hobby_name": "Escalade",
+        "hobby_field": "Sport",
+        "hobby_exp": "",
+        "hobby_interest": "[``, ``]"
+    },
+    {
+        "hobby_name": "Art Martiaux",
+        "hobby_field": "Sport",
+        "hobby_exp": "",
+        "hobby_interest": "[``, ``]"
+    }
+]

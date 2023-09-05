@@ -1,0 +1,92 @@
+[
+    {
+        "company": "PROJET PERSO",
+        "position": "DÉVELOPPEUR WEB Node.js",
+        "job_details": "App permettant d’importer/exporter des données d’une base depuis/vers des fichiers, codé avec Node.js et EJS (en cours de développement) - https://github.com/ThomasGT78/convertisseur_fichier_bdd.git",
+        "starting_date": "06/2021",
+        "ending_date": "en cours",
+        "country": "France",
+        "city": "Gentilly",
+        "tag": ["Informatique"]
+    },
+    {
+        "company": "NWS-TECH",
+        "position": "StagE DÉVELOPPEUR WEB",
+        "job_details": "Modification du site QRMiam développé sur Wordpress : modification et ajout de fonctionnalités en PHP, assistance du designer pour la refonte graphique du site - Liaison de la base de données du site avec l’API du CRM Monday - https://github.com/ThomasGT78/Rapport-de-stage",
+        "starting_date": "04/2018",
+        "ending_date": "07/2021",
+        "country": "France",
+        "city": "Lyon (à distance)",
+        "tag": ["Informatique"]
+    },
+    {
+        "company": "LES CERCLES DE LA FORME - Fit 14",
+        "position": "HÔTE/COMMERCIAL",
+        "job_details": "Vente des services sportifs - Accueil et gestion des problèmes clients - Gestion de la salle, ouverture/fermeture...",
+        "starting_date": "04/2018",
+        "ending_date": "01/2022",
+        "country": "France",
+        "city": "Paris",
+        "tag": ["Commercial" , "Sport"]
+    },
+    {
+        "company": "BIO C’BON",
+        "position": "RESPONSABLE ADJOINT MAGASIN BIO",
+        "job_details": "Management d’équipe de 6 personnes - Gestion Administratif (remise en banque, courriers, planning, etc…) - Commandes (traiteurs, fruits et légumes, vrac, viandes et poisson) - Gestion du magasin (plan merch, inventaire, mise en rayon, caisse, etc…) - Conseil client spécialisé",
+        "starting_date": "06/2017",
+        "ending_date": "04/2018",
+        "country": "France",
+        "city": "Paris",
+        "tag": ["Commercial" , "Management"]
+    },
+    {
+        "company": "HÔTEL*** COURCHENEIGE",
+        "position": "Night Audit",
+        "job_details": "Accueil client de nuit (Services divers + Check-in et Check-out) - Réception téléphonique - Voiturier/bagagiste - Réservation des activités et des transferts - Réconciliation comptable des divers services de restauration de l'hôtel",
+        "starting_date": "12/2016",
+        "ending_date": "04/2017",
+        "country": "France",
+        "city": "Courchevel",
+        "tag": ["Tourisme"]
+    },
+    {
+        "company": "DECATHLON",
+        "position": "VENDEUR SPÉCIALISÉ SPORTS DE MONtagNE",
+        "job_details": "Vente et conseil client spécialisé dans le sport de montagne",
+        "starting_date": "06/2016",
+        "ending_date": "08/2016",
+        "country": "France",
+        "city": "Mantes-la-Jolie",
+        "tag": ["Commercial" , "Sport"]
+    },
+    {
+        "company": "AGENCE DE VOYAGE: « DELFINES TOURS LTDA. »",
+        "position": "CONSEILLER EN RELATIONS INTERNATIONALES",
+        "job_details": "Traduction Espagnol/Anglais - Agent de liaison et de promotion internationale - Marketing et e-Marketing (Design du site internet, de flyers et de la vitrine de l’agence)",
+        "starting_date": "01/2016",
+        "ending_date": "04/2016",
+        "country": "Colombie",
+        "city": "Cartagena de Indias",
+        "tag": ["Tourisme"]
+    },
+    {
+        "company": "AUBERGE « LOS GNOMOS »",
+        "position": "NIGHT AUDIT",
+        "job_details": "Accueil client de nuit, Réception téléphonique, Voiturier/bagagiste - Traduction Espagnol/Anglais et Espagnol/Français",
+        "starting_date": "02/2015",
+        "ending_date": "04/2015",
+        "country": "Argentine",
+        "city": "El Calafate",
+        "tag": ["Tourisme"]
+    },
+    {
+        "company": "CORAL BAY ECOTOUR",
+        "position": "GUIDE TOURISTIQUE",
+        "job_details": "Formation à la conduite des Quads et à la plongée en apnée - Guide sur Quad et de plongée avec tuba, Entretien des Quads.",
+        "starting_date": "08/2012",
+        "ending_date": "01/2013",
+        "country": "Australie",
+        "city": "Coral Bay",
+        "tag": ["Tourisme"]
+    }
+]

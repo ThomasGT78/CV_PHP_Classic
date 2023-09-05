@@ -1,0 +1,28 @@
+// DISPLAY CV
+- visibilité par dates ou catégories
+- déroulement des détails (expériences, formations,)
+- avec déroulement qui permet de voir toutes les expériences non principales
+- galerie photo si clic sur la photo
+- photo de cv avec option diaporama ou Non
+- page dynamique avec des actions sur des clics ou autres
+- compte le nombre de vues
+- peut être liker
+- autoriser commentaire de suggestion de fonctionnalité ou de report de bug
+- Version Anglaise et Espagnol
+- Création de plusieurs CV (Dev, Coach, Tourisme, complet...) 
+	=> table CV jointe à toutes les autres tables?? ou relier les Expériences, et skills à des Tags???
+- CV 2.0 (affichage graphique ou linéaire au choix)
+- QR code lien linkedIn, github, page facebook de voyage, etc...
+
+// DASHBOARD UTILISATEUR
+- permet d'ajouter des nouvelles expériences, diplômes, COMPÉTENCES etc...
+- gérer la galerie photo
+- permet de modifier les données existantes
+- Choisir l'ordre d'apparition des données:
+	=> skills, exp, hobbies, languages, values, deggrees
+	=> gestion du code coté clients dans array (new table « order » ou inclue dans « tags » ?)
+- visualiser le nombre de vue totales et avec tableau de statistiques sur le temps (utile pour voir qui)
+- demander Nom / Prénom / Entreprise et afficher un suivi par date et voir le nombre de fois qu'une même personne s'est connecté
+- accès test pour les recruteurs 
+	=> permet d'accéder au fonction de modification d'un CV test
+

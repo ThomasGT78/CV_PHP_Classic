@@ -1,0 +1,37 @@
+[
+    {
+        "label": "Mon CV sur LinkedIn",
+        "site": "LinkedIn",
+        "link_type": "Pro",
+        "link1": "https://www.linkedin.com/in/garot-thomas-a3447295/",
+        "link2": ""
+    },
+    {
+        "label": "Mes projets sur GitHub",
+        "site": "GitHub",
+        "link_type": "Pro",
+        "link1": "https://github.com/ThomasGT78",
+        "link2": ""
+    },
+    {
+        "label": "Mes résultat sur CodinGame",
+        "site": "CodinGame",
+        "link_type": "Pro",
+        "link1": "https://www.codingame.com/profile/a4abcca3e11650d180b8858c09bf1b483061384",
+        "link2": "https://www.codingame.com/certification/oWYCFEsi0kaWhwUPbMRKAg"
+    },
+    {
+        "label": "GT World Upside Down",
+        "site": "Facebook",
+        "link_type": "Perso",
+        "link1": "https://www.linkedin.com/in/garot-thomas-a3447295/",
+        "link2": ""
+    },
+    {
+        "label": "Mon Insta",
+        "site": "Instagram",
+        "link_type": "Perso",
+        "link1": "https://www./",
+        "link2": ""
+    }
+]

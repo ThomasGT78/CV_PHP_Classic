@@ -5,7 +5,7 @@
      * getFileName
      * @return string
      * 
-     * Get the name from the name of the original file used.
+     * Get the file_name from of the original file used.
      */
 
     function getFileName (){

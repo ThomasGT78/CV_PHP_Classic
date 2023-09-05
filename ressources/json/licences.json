@@ -1,0 +1,44 @@
+[
+    {
+        "category": "A",
+        "vehicle": "Moto",
+        "details": "Toutes les motos et tous les trois-roues motorisés quelle que soit leur puissance",
+        "grad_date": "21/09/2007",
+        "validity": ""
+    },
+    {
+        "category": "B",
+        "vehicle": "Voiture",
+        "details": "Voitures, camionnettes et camping-cars avec 9 places assises maximum (conducteur inclus) et dont le PTAC (poids total autorisé en charge) ne dépasse pas 3,5 Tonnes",
+        "grad_date": "02/06/2005",
+        "validity": ""
+    },
+    {
+        "category": "CASES 1",
+        "vehicle": "Transpalettes à conducteur porté",
+        "details": "Transpalettes à conducteur porté et préparateur de commande au sol (levée inférieure à 1 m)",
+        "grad_date": "17/06/2016",
+        "validity": "16/06/2021"
+    },
+    {
+        "category": "CASES 3",
+        "vehicle": "Chariots élévateurs en porte-à-faux",
+        "details": "Chariots élévateurs en porte-à-faux de capacité inférieure ou égale à 6000 Kg) (et chariots embarqués)",
+        "grad_date": "17/06/2016",
+        "validity": "16/06/2021"
+    },
+    {
+        "category": "CASES 5",
+        "vehicle": "Chariots élévateurs à mât rétractable",
+        "details": "Chariots élévateurs à mât rétractable (et chariots à prises bi et multidirectionnelle, à prise latérale à poste de conduite élevable)",
+        "grad_date": "17/06/2016",
+        "validity": "16/06/2021"
+    },
+    {
+        "category": "Bâteau côtier",
+        "vehicle": "Bâteau de plaisance à moteur",
+        "details": "Bâteau de plaisance à moteur de 2,5 à 24 mètres et de plus de 4,5 kilowatts (6 chevaux) en mer jusqu'à 6 milles d'un abri: Endroit de la côte où un bateau et son équipage peuvent se mettre en sécurité (environ 11 km)",
+        "grad_date": "08/06/2011",
+        "validity": ""
+    }
+]
