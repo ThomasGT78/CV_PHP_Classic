@@ -7,8 +7,7 @@
         "starting_date": "",
         "ending_date": "",
         "formation_type": ["Alternance", "Contrat d'apprentissage"],
-        "format": "",
-        "stack": [1, 3, 5], 
+        "formation_format": "", 
         "objectifs": ""
     },
     {
@@ -19,8 +18,7 @@
         "starting_date": "",
         "ending_date": "",
         "formation_type": ["Alternance", "Contrat d'apprentissage"],
-        "format": "",
-        "stack": [1, 3, 5],
+        "formation_format": "",
         "objectifs": ""
     },
     {
@@ -31,8 +29,7 @@
         "starting_date": "",
         "ending_date": "",
         "formation_type": ["Alternance", "Contrat d'apprentissage"],
-        "format": "",
-        "stack": [1, 3, 5],
+        "formation_format": "",
         "objectifs": ""
     },
     {
@@ -43,8 +40,7 @@
         "starting_date": "",
         "ending_date": "",
         "formation_type": ["Alternance", "Contrat d'apprentissage"],
-        "format": "",
-        "stack": [1, 3, 5],
+        "formation_format": "",
         "objectifs": ""
     }
 ]

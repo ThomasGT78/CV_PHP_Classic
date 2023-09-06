@@ -6,18 +6,16 @@
         "starting_date": "06/2021",
         "ending_date": "en cours",
         "country": "France",
-        "city": "Gentilly",
-        "tag": ["Informatique"]
+        "city": "Gentilly"
     },
     {
         "company": "NWS-TECH",
-        "position": "StagE DÉVELOPPEUR WEB",
+        "position": "STAGE DÉVELOPPEUR WEB",
         "job_details": "Modification du site QRMiam développé sur Wordpress : modification et ajout de fonctionnalités en PHP, assistance du designer pour la refonte graphique du site - Liaison de la base de données du site avec l’API du CRM Monday - https://github.com/ThomasGT78/Rapport-de-stage",
         "starting_date": "04/2018",
         "ending_date": "07/2021",
         "country": "France",
-        "city": "Lyon (à distance)",
-        "tag": ["Informatique"]
+        "city": "Lyon (à distance)"
     },
     {
         "company": "LES CERCLES DE LA FORME - Fit 14",
@@ -26,8 +24,7 @@
         "starting_date": "04/2018",
         "ending_date": "01/2022",
         "country": "France",
-        "city": "Paris",
-        "tag": ["Commercial" , "Sport"]
+        "city": "Paris"
     },
     {
         "company": "BIO C’BON",
@@ -36,8 +33,7 @@
         "starting_date": "06/2017",
         "ending_date": "04/2018",
         "country": "France",
-        "city": "Paris",
-        "tag": ["Commercial" , "Management"]
+        "city": "Paris"
     },
     {
         "company": "HÔTEL*** COURCHENEIGE",
@@ -46,8 +42,7 @@
         "starting_date": "12/2016",
         "ending_date": "04/2017",
         "country": "France",
-        "city": "Courchevel",
-        "tag": ["Tourisme"]
+        "city": "Courchevel"
     },
     {
         "company": "DECATHLON",
@@ -56,8 +51,7 @@
         "starting_date": "06/2016",
         "ending_date": "08/2016",
         "country": "France",
-        "city": "Mantes-la-Jolie",
-        "tag": ["Commercial" , "Sport"]
+        "city": "Mantes-la-Jolie"
     },
     {
         "company": "AGENCE DE VOYAGE: « DELFINES TOURS LTDA. »",
@@ -66,8 +60,7 @@
         "starting_date": "01/2016",
         "ending_date": "04/2016",
         "country": "Colombie",
-        "city": "Cartagena de Indias",
-        "tag": ["Tourisme"]
+        "city": "Cartagena de Indias"
     },
     {
         "company": "AUBERGE « LOS GNOMOS »",
@@ -76,8 +69,7 @@
         "starting_date": "02/2015",
         "ending_date": "04/2015",
         "country": "Argentine",
-        "city": "El Calafate",
-        "tag": ["Tourisme"]
+        "city": "El Calafate"
     },
     {
         "company": "CORAL BAY ECOTOUR",
@@ -86,7 +78,6 @@
         "starting_date": "08/2012",
         "ending_date": "01/2013",
         "country": "Australie",
-        "city": "Coral Bay",
-        "tag": ["Tourisme"]
+        "city": "Coral Bay"
     }
 ]

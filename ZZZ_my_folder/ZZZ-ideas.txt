@@ -25,4 +25,4 @@
 - demander Nom / Prénom / Entreprise et afficher un suivi par date et voir le nombre de fois qu'une même personne s'est connecté
 - accès test pour les recruteurs 
 	=> permet d'accéder au fonction de modification d'un CV test
-
+- la description de l'Expérience se fait en plusieurs points (séraprer par des « ; » et des « / » les missions et sous-mission, ou créer une nouvelle table des missions)
