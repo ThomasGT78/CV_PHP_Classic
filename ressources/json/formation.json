@@ -1,0 +1,54 @@
+[
+    {
+        "form_name": "Concepteur Développeur d'Application",
+        "abr_form_name": "CDA",
+        "certification": "RNCP niv.6 ",
+        "level": "bac +3/4",
+        "school_name": "EQL",
+        "duration": "12 mois",
+        "starting_date": "",
+        "ending_date": "",
+        "form_type": "Alternance",
+        "form_contract": "Contrat d'apprentissage",
+        "form_format": ""
+    },
+    {
+        "form_name": "Concepteur Développeur d'Application",
+        "abr_form_name": "CDA",
+        "certification": "RNCP niv.6 ",
+        "level": "bac +3/4",
+        "school_name": "DataScientest",
+        "duration": "12 mois",
+        "starting_date": "",
+        "ending_date": "",
+        "form_type": "Alternance",
+        "form_contract": "Contrat d'apprentissage",
+        "form_format": ""
+    },
+    {
+        "form_name": "Concepteur Développeur d'Application",
+        "abr_form_name": "CDA",
+        "certification": "RNCP niv.6 ",
+        "level": "bac +3/4",
+        "school_name": "2i Academy",
+        "duration": "24 mois",
+        "starting_date": "",
+        "ending_date": "",
+        "form_type": "Alternance",
+        "form_contract": "Contrat d'apprentissage",
+        "form_format": ""
+    },
+    {
+        "form_name": "Concepteur Développeur d'Application",
+        "abr_form_name": "CDA",
+        "certification": "RNCP niv.6 ",
+        "level": "bac +3/4",
+        "school_name": "Diginamic",
+        "duration": "16 mois",
+        "starting_date": "",
+        "ending_date": "",
+        "form_type": "Alternance",
+        "form_contract": "Contrat d'apprentissage",
+        "form_format": "3 mois en formation, puis 2 jours/mois en en formation et le reste en entreprise"
+    }
+]

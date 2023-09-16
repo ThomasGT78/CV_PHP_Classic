@@ -1,0 +1,163 @@
+[
+    {
+        "tech_name": "HTML5/CSS3",
+        "stack_category": "Front-end",
+        "tech_type": "Langage",
+        "tech_base": "",
+        "tech_level": 7
+    },
+    {
+        "tech_name": "Bootstrap",
+        "stack_category": "Front-end",
+        "tech_type": "Framework",
+        "tech_base": "HTML5/CSS3",
+        "tech_level": 0
+    },
+    {
+        "tech_name": "JavaScript",
+        "stack_category": "Front-end",
+        "tech_type": "Langage",
+        "tech_base": "",
+        "tech_level": 7
+    },
+    {
+        "tech_name": "Jquery",
+        "stack_category": "Front-end",
+        "tech_type": "Librairy",
+        "tech_base": "JavaScript",
+        "tech_level": 6
+    },
+    {
+        "tech_name": "React",
+        "stack_category": "Front-end",
+        "tech_type": "Librairy",
+        "tech_base": "JavaScript",
+        "tech_level": 1
+    },
+    {
+        "tech_name": "Ajax",
+        "stack_category": "Front-end",
+        "tech_type": "Librairy",
+        "tech_base": "JavaScript",
+        "tech_level": 3
+    },
+    {
+        "tech_name": "Angular.js",
+        "stack_category": "Front-end",
+        "tech_type": "Framework",
+        "tech_base": "JavaScript",
+        "tech_level": 0
+    },
+    {
+        "tech_name": "Vue.js",
+        "stack_category": "Front-end",
+        "tech_type": "Framework",
+        "tech_base": "JavaScript",
+        "tech_level": 0
+    },
+    {
+        "tech_name": "NodeJS",
+        "stack_category": "Back-end",
+        "tech_type": "Software",
+        "tech_base": "JavaScript",
+        "tech_level": 4
+    },
+    {
+        "tech_name": "PHP",
+        "stack_category": "Back-end",
+        "tech_type": "Langage",
+        "tech_base": "",
+        "tech_level": 6
+    },
+    {
+        "tech_name": "Twig",
+        "stack_category": "Front-end",
+        "tech_type": "Framework",
+        "tech_base": "PHP",
+        "tech_level": 6
+    },
+    {
+        "tech_name": "Symfony",
+        "stack_category": "Back-end",
+        "tech_type": "Framework",
+        "tech_base": "PHP",
+        "tech_level": 1
+    },
+    {
+        "tech_name": "Laravel",
+        "stack_category": "Back-end",
+        "tech_type": "Framework",
+        "tech_base": "PHP",
+        "tech_level": 0
+    },
+    {
+        "tech_name": "WordPress",
+        "stack_category": "Front-end",
+        "tech_type": "CMS",
+        "tech_base": "PHP",
+        "tech_level": 3
+    },
+    {
+        "tech_name": "Prestashop",
+        "stack_category": "Front-end",
+        "tech_type": "Software",
+        "tech_base": "PHP",
+        "tech_level": 0
+    },
+    {
+        "tech_name": "SQL",
+        "stack_category": "Back-end",
+        "tech_type": "Langage",
+        "tech_base": "",
+        "tech_level": 7
+    },
+    {
+        "tech_name": "MySQL",
+        "stack_category": "Back-end",
+        "tech_type": "Software",
+        "tech_base": "SQL",
+        "tech_level": 7
+    },
+    {
+        "tech_name": "NoSQL",
+        "stack_category": "Back-end",
+        "tech_type": "Langage",
+        "tech_base": "",
+        "tech_level": 3
+    },
+    {
+        "tech_name": "MongoDB",
+        "stack_category": "Back-end",
+        "tech_type": "Software",
+        "tech_base": "NoSQL",
+        "tech_level": 3
+    },
+    {
+        "tech_name": "UML",
+        "stack_category": "Conception",
+        "tech_type": "Software",
+        "tech_base": "",
+        "tech_level": 4
+    },
+    {
+        "tech_name": "Algorythmie",
+        "stack_category": "Logique",
+        "tech_type": "Methode",
+        "tech_base": "",
+        "tech_level": 7
+    },
+    {
+        "tech_name": "Linux",
+        "stack_category": "Environnement",
+        "tech_type": "Environnement",
+        "tech_base": "",
+        "tech_level": 4
+    },
+    {
+        "tech_name": "Kubernet",
+        "stack_category": "devOps",
+        "tech_type": "outils",
+        "tech_base": "",
+        "tech_level": 0
+    }
+]

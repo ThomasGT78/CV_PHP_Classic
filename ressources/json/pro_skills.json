@@ -1,0 +1,44 @@
+[
+    {
+        "pro_skill_name": "Manipulation d’internet et des programmes de bureautique",
+        "pro_skill_category": "Informatique",
+        "pro_skill_details": "",
+        "pro_skill_level": 8
+    },
+    {
+        "pro_skill_name": "Programmation Web",
+        "pro_skill_category": "Informatique",
+        "pro_skill_details": "",
+        "pro_skill_level": 8
+    },
+    {
+        "pro_skill_name": "AGILES",
+        "pro_skill_category": "Management",
+        "pro_skill_details": "Methode de gestion de projet",
+        "pro_skill_level": 5
+    },
+    {
+        "pro_skill_name": "Gestion d'équipe",
+        "pro_skill_category": "Management",
+        "pro_skill_details": "6 personnes",
+        "pro_skill_level": 5
+    },
+    {
+        "pro_skill_name": "Ventes",
+        "pro_skill_category": "Commercial",
+        "pro_skill_details": "Methode de gestion de projet",
+        "pro_skill_level": 5
+    },
+    {
+        "pro_skill_name": "Service client/après-vente",
+        "pro_skill_category": "Commercial",
+        "pro_skill_details": "Methode de gestion de projet",
+        "pro_skill_level": 5
+    },
+    {
+        "pro_skill_name": "Coa",
+        "pro_skill_category": "Coaching",
+        "pro_skill_details": "Methode de gestion de projet",
+        "pro_skill_level": 5
+    }
+]

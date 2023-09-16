@@ -1,6 +1,14 @@
 [
     {"idées":"`Curiosité`, `Ouverture d'esprit`, `Évolution`, `Adaptabilité`, `Dépassement`, `Communication`, `Autonomie`, `Patience`, `Persévérence`, `Créativité`, `Ouverture d'esprit`, `Adaptabilité`,`Découvrir`, `Échanger`, `Partager`, Respect de la nature, de sa santé santé, de son bien-être, de son futur, Liberté, endurance, nature, Liberté, adrénaline, nature, Contrôle, adrénaline, performence, Aller plus haut,Compétition, courage, confrontation",
         "Value_name": "",
-        "values_description": ""
+        "values_details": ""
+    },
+    {
+        "Value_name": "Respect et Bienveillance",
+        "values_details": "Peut importe le lieu, nos relations sociale sont déterminente dans l'expérience que nous vivons de chaque moment... faisont en sorte qu'elle soient belles"
+    },
+    {
+        "Value_name": "Ouverture d'esprit",
+        "values_details": "On ne sera pas forcément toujours d'accord, mais il est important d'essayer de se comprendre et d'accépter que nos avis puisse diverger"
     }
 ]

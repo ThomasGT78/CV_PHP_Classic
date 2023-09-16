@@ -1,0 +1,9 @@
+
+
+@import "modules/header.css"; 
+@import "modules/nav.css"; 
+@import "modules/footer.css"; 
+
+@import "pages/home.css"; 
+@import "pages/manage_cv.css"; 
+@import "pages/display_cv.css"; 

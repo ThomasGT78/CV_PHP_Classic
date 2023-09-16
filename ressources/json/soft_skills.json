@@ -2,170 +2,170 @@
     {
         "s_skill_name": "Attitude positive",
         "s_skill_category": "Relations Sociales",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Aisance relationnelle",
         "s_skill_category": "Relations Sociales",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },  
     {
         "s_skill_name": "Sens de l'écoute",
         "s_skill_category": "Relations Sociales",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Sens du service",
         "s_skill_category": "Relations Sociales",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Travail d'équipe",
         "s_skill_category": "Relations Sociales",
-        "s_skill_description": "Sais collaborer"
+        "s_skill_details": "Sais collaborer"
     },
     {
         "s_skill_name": "Pédagogue",
         "s_skill_category": "Relations Sociales",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Altruiste",
         "s_skill_category": "Relations Sociales",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
 
     {
         "s_skill_name": "Ouvert d'esprit",
         "s_skill_category": "Imagination",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Curieux",
         "s_skill_category": "Imagination",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Créatif",
         "s_skill_category": "Imagination",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Force de proposition",
         "s_skill_category": "Imagination",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Ambitieux",
         "s_skill_category": "Motivation",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Déterminé",
         "s_skill_category": "Motivation",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Passionné",
         "s_skill_category": "Motivation",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Impliqué",
         "s_skill_category": "Motivation",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Volontaire",
         "s_skill_category": "Motivation",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Persévérent",
         "s_skill_category": "Motivation",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Résilient",
         "s_skill_category": "Motivation",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Pugnace",
         "s_skill_category": "Motivation",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
 
     {
         "s_skill_name": "Flexibilité Cognitive",
         "s_skill_category": "Adaptabilité",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Autonome",
         "s_skill_category": "Adaptabilité",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Esprit d’initiative",
         "s_skill_category": "Adaptabilité",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Ingénieux",
         "s_skill_category": "Adaptabilité",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Pragmatique",
         "s_skill_category": "Adaptabilité",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     
     {
         "s_skill_name": "Organisé",
         "s_skill_category": "Rigueur",
-        "s_skill_description": "Sens de l'oganisation, agis de manière structurée"
+        "s_skill_details": "Sens de l'oganisation, agis de manière structurée"
     },
     {
         "s_skill_name": "Minutieux",
         "s_skill_category": "Rigueur",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Consciencieux",
         "s_skill_category": "Rigueur",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
 
     {
         "s_skill_name": "Vitesse d’esprit",
         "s_skill_category": "Raisonnement",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Résolution de problèmes",
         "s_skill_category": "Raisonnement",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Esprit d’analyse",
         "s_skill_category": "Raisonnement",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Esprit critique",
         "s_skill_category": "Raisonnement",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Capacité d'apprentissage",
         "s_skill_category": "Raisonnement",
-        "s_skill_description": ""
+        "s_skill_details": ""
     },
     {
         "s_skill_name": "Application des nouvelles connaissances",
         "s_skill_category": "Raisonnement",
-        "s_skill_description": ""
+        "s_skill_details": ""
     }
 ]
