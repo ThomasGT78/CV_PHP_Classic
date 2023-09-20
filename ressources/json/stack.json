@@ -28,6 +28,13 @@
         "tech_level": 6
     },
     {
+        "tech_name": "Ajax",
+        "stack_category": "Front-end",
+        "tech_type": "Librairy",
+        "tech_base": "JavaScript",
+        "tech_level": 3
+    },
+    {
         "tech_name": "React",
         "stack_category": "Front-end",
         "tech_type": "Librairy",
@@ -35,11 +42,11 @@
         "tech_level": 1
     },
     {
-        "tech_name": "Ajax",
-        "stack_category": "Front-end",
-        "tech_type": "Librairy",
+        "tech_name": "React Native",
+        "stack_category": "Mobile",
+        "tech_type": "Framework",
         "tech_base": "JavaScript",
-        "tech_level": 3
+        "tech_level": 1
     },
     {
         "tech_name": "Angular.js",
@@ -148,15 +155,36 @@
     },
     {
         "tech_name": "Linux",
-        "stack_category": "Environnement",
+        "stack_category": "DevOps",
         "tech_type": "Environnement",
         "tech_base": "",
         "tech_level": 4
     },
     {
-        "tech_name": "Kubernet",
-        "stack_category": "devOps",
-        "tech_type": "outils",
+        "tech_name": "Unix",
+        "stack_category": "DevOps",
+        "tech_type": "Environnement",
+        "tech_base": "",
+        "tech_level": 4
+    },
+    {
+        "tech_name": "Android",
+        "stack_category": "Mobile",
+        "tech_type": "Environnement",
+        "tech_base": "",
+        "tech_level": 4
+    },
+    {
+        "tech_name": "Docker",
+        "stack_category": "DevOps",
+        "tech_type": "Software",
+        "tech_base": "",
+        "tech_level": 1
+    }
+    {
+        "tech_name": "Kubernetes",
+        "stack_category": "DevOps",
+        "tech_type": "Software",
         "tech_base": "",
         "tech_level": 0
     }

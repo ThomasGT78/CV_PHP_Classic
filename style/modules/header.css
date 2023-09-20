@@ -1,8 +1,15 @@
-body {
-    margin: 0;
-}
 
 #header {
+    margin: 0 10% 0 10%;
+    height: fit-content;
+}
+
+
+#header p {
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
     font-size: 3rem;
-    color: brown;
+    text-align: center;
+    font-weight: bold;
+    color: #fafafa;
 }

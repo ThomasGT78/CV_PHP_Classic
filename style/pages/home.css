@@ -1,0 +1,56 @@
+/* Style for the home page content */
+.home_content {
+    background-color: #333; /* Background color for the content */
+    margin: 1rem 10% 1rem 10%;
+    padding: 5px 20px; /* Add some padding to the content */
+    border: 0px solid #ccc; /* Add a light border around the content */
+    border-radius: 5px; /* Add slightly rounded corners */
+}
+
+.home_block {
+    margin-bottom: 3rem;
+}
+
+.home_content h1 {
+    color: #eee; /* Text color for headings */
+    margin: 1rem 0 2rem 0;
+}
+
+.home_content h2 {
+    color: #ddd; /* Text color for headings */
+    margin: 1rem 0;
+}
+
+.home_content p {
+    color: #ccc; /* Text color for paragraphs */
+    font-size: 1.2rem;
+    line-height: 1.4; 
+    /* Adjust the line height for better readability */
+}
+
+/* Style for the project links */
+.container_link{
+    
+    display: flex;
+    justify-content: center; /* Aligner les éléments à gauche */
+    gap: 20%; /* Espacement entre les éléments (ajusté) */
+}
+
+.project_link {
+    margin-left: 15px;
+    border: 2px solid #666; /* Ajoute une bordure grise autour de chaque bouton */
+    border-radius: 5px; /* Coins légèrement arrondis */
+}
+
+.project_link a {
+    text-decoration: none; /* Supprime la soulignement des liens */
+    color: #ccc; /* Couleur du texte */
+    padding: 30px 20px; /* Espacement interne des boutons (ajusté) */
+    display: block; /* Les boutons occupent tout l'espace du lien */
+    transition: background-color 0.3s, color 0.3s; /* Transition de couleur au survol */
+}
+
+.project_link:hover a {
+    background-color: #666; /* Couleur de fond au survol */
+    color: #fff; /* Couleur du texte au survol */
+}

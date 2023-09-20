@@ -1,14 +1,42 @@
 [
-    {"idées":"`Curiosité`, `Ouverture d'esprit`, `Évolution`, `Adaptabilité`, `Dépassement`, `Communication`, `Autonomie`, `Patience`, `Persévérence`, `Créativité`, `Ouverture d'esprit`, `Adaptabilité`,`Découvrir`, `Échanger`, `Partager`, Respect de la nature, de sa santé santé, de son bien-être, de son futur, Liberté, endurance, nature, Liberté, adrénaline, nature, Contrôle, adrénaline, performence, Aller plus haut,Compétition, courage, confrontation",
-        "Value_name": "",
-        "values_details": ""
-    },
     {
-        "Value_name": "Respect et Bienveillance",
+        "Value_name": "Ouverture d'Esprit, Respect et Bienveillance",
         "values_details": "Peut importe le lieu, nos relations sociale sont déterminente dans l'expérience que nous vivons de chaque moment... faisont en sorte qu'elle soient belles"
     },
     {
-        "Value_name": "Ouverture d'esprit",
+        "Value_name": "Curiosité, Ouverture d'esprit",
         "values_details": "On ne sera pas forcément toujours d'accord, mais il est important d'essayer de se comprendre et d'accépter que nos avis puisse diverger"
+    },
+    {
+        "Value_name": "Créativité et Inovation, Évolution",
+        "values_details": "Nous faisons les choses pas comme les autres et nous aimons ça. C’est ce grain de folie qui donne la liberté à chacun d’innover et d’aller jusqu’au bout de ses idées."
+    },
+    {
+        "Value_name": "Courage et Ambition, Persévérence",
+        "values_details": "Nous n’avons pas peur d’aller vite et de prendre des risques. Si le plan A ne fonctionne pas, il y a encore toutes les lettres de l’alphabet. Nous tirons des leçons de nos expériences et nous nous adaptons"
+    },
+    {
+        "Value_name": "Pragmatisme et Utilité",
+        "values_details": "Nos clients sont au ❤️‍ de tout ce que nous entreprenons car un produit n’est rien sans ses utilisateurs et c’est avec ses utilisateurs qu’un produit grandit"
+    },
+    {
+        "Value_name": "Qualité et Minutie",
+        "values_details": "Nous prenons en main nos projets, avec responsabilité. Nous sommes exigeants envers les autres mais avant tout, nous donnons le meilleur de nous même"
+    },
+    {
+        "Value_name": "Liberté",
+        "values_details": ""
+    },
+    {
+        "Value_name": "Adaptabilité",
+        "values_details": ""
+    },
+    {
+        "Value_name": "Partager",
+        "values_details": ""
+    },
+    {
+        "Value_name": "Nature et vie",
+        "values_details": ""
     }
 ]
