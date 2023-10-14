@@ -30,7 +30,6 @@
 
 /* Style for the project links */
 .container_link{
-    
     display: flex;
     justify-content: center; /* Aligner les éléments à gauche */
     gap: 20%; /* Espacement entre les éléments (ajusté) */

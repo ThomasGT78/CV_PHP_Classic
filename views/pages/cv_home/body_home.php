@@ -1,6 +1,7 @@
 <?php
 include 'function_home.php';
 
+
 ?>
 
 
@@ -18,6 +19,9 @@ include 'function_home.php';
         <p>Vous trouverez ici mon CV détaillé, mettant en évidence mes compétences, mon expérience et mes réalisations. N'hésitez pas à le consulter pour en savoir plus sur mon parcours professionnel.</p>
 
         <div class="container_link">
+            <!-- 
+            -   php -S localhost:8081
+            -->
             <div class="project_link"><a href="/display_cv.php">CV Web Classic</a></div>
             <div class="project_link"><a href="/display_cv.php"> CV Web 2.0</a></div>
         </div>
@@ -25,12 +29,20 @@ include 'function_home.php';
 
     
     <div class="home_block">
-        <h2>Quelques Projets</h2>
+        <h2>Quelques Projets / Réalisations</h2>
         <p>Découvrez mes projets : En plus de mon CV, j'ai également inclus des liens vers certains de mes projets récents. Explorez-les pour voir mes compétences en action et en apprendre davantage sur mes réalisations.</p>
 
         <div class="container_link">
-            <div class="project_link"><a href="">Import/Export DataBase</a></div>
-            <div class="project_link"><a href="">World GT</a></div>
+            <!-- 
+            -   cd C:\Dev_Projets\Projets_NodeJs\ConvertisseurBD-CSV-JSON
+            -   node Controller_convertisseur_entier
+            -->
+            <div class="project_link"><a href="http://localhost:8082/" target="_blank">Import/Export DataBase</a></div>
+            <!-- 
+            -   cd C:\Dev_Projets\Mini_Projets\Modify_File_Name
+            -   node Controller_Modify_File_Name
+            -->
+            <div class="project_link"><a href="http://localhost:8082/" target="_blank">Modify Files Name</a></div>
         </div>
     </div>
     

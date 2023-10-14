@@ -8,3 +8,6 @@ VALUES ('EDF', 'Electricien', 'apporte de la lumière dans la vie des gens', '20
 SELECT id_experience, company 
   FROM experiences 
   WHERE tag LIKE '%Sport%' OR tag LIKE '%Ingénieur%';
+
+
+SELECT * FROM stack WHERE tech_level > 0;

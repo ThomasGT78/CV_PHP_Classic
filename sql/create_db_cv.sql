@@ -4,7 +4,7 @@ CREATE DATABASE IF NOT EXISTS `gt_my_cv` DEFAULT CHARACTER SET utf8mb4_general_c
 -- utf8mb4_bin (SENSIBLE à la casse)
 -- utf8mb4_general_ci (NON sensible à la casse)
 
-USE GT_my_CV;
+USE gt_my_cv;
 
 CREATE TABLE IF NOT EXISTS contact (
     id_contact TINYINT UNSIGNED AUTO_INCREMENT UNIQUE,
@@ -19,8 +19,9 @@ CREATE TABLE IF NOT EXISTS contact (
 
 CREATE TABLE IF NOT EXISTS cv (
     id_cv TINYINT UNSIGNED AUTO_INCREMENT,
-    cv_name VARCHAR (50) UNIQUE NOT NULL,
-    cv_title VARCHAR (50) UNIQUE NOT NULL,
+    cv_title VARCHAR (255) UNIQUE NOT NULL,
+    cv_abrv VARCHAR (50) UNIQUE NOT NULL,
+    cv_category VARCHAR (50) NOT NULL,
     PRIMARY KEY (id_cv)
 );
 
@@ -28,7 +29,7 @@ CREATE TABLE IF NOT EXISTS cv (
 /**  
 *   VALUES
 **/
-CREATE TABLE IF NOT EXISTS values (
+CREATE TABLE IF NOT EXISTS `values` (
     id_value TINYINT UNSIGNED AUTO_INCREMENT,
     value_name VARCHAR (50) UNIQUE NOT NULL, 
     value_details VARCHAR (255),
@@ -42,7 +43,7 @@ CREATE TABLE IF NOT EXISTS cv_values (   -- ORDER TABLE
     order_value TINYINT UNSIGNED,
     PRIMARY KEY (id_cv_value),
     FOREIGN KEY (id_cv) REFERENCES cv(id_cv),
-    FOREIGN KEY (id_value) REFERENCES values(id_value)
+    FOREIGN KEY (id_value) REFERENCES `values`(id_value)
 );
 
 
@@ -69,20 +70,21 @@ CREATE TABLE IF NOT EXISTS cv_categories (   -- ORDER TABLE
 /**  
 *   LANGUAGES
 **/
+
+CREATE TABLE IF NOT EXISTS languages_level ( -- JOIN TABLE
+    cecrl VARCHAR (5) NOT NULL,
+    cecrl_level VARCHAR (255) NOT NULL,
+    details TEXT,
+    PRIMARY KEY (cecrl)
+);
+
 CREATE TABLE IF NOT EXISTS languages (
     id_language TINYINT UNSIGNED AUTO_INCREMENT,
     idiom VARCHAR (50) NOT NULL UNIQUE,
-    cerl CHAR (2) NOT NULL,
+    cecrl VARCHAR (5) NOT NULL,
     idiom_exp VARCHAR (255) NOT NULL,
     PRIMARY KEY (id_language),
-    FOREIGN KEY (cerl) REFERENCES languages_level(cerl)
-);
-
-CREATE TABLE IF NOT EXISTS languages_level ( -- JOIN TABLE
-    cerl CHAR (2) NOT NULL,
-    cerl_level VARCHAR (255) NOT NULL,
-    details TEXT,
-    PRIMARY KEY (cerl)
+    FOREIGN KEY (cecrl) REFERENCES languages_level(cecrl)
 );
 
 CREATE TABLE IF NOT EXISTS cv_languages ( -- ORDER TABLE
@@ -207,14 +209,14 @@ CREATE TABLE IF NOT EXISTS hobbies_values (  -- MERGE TABLE
     id_value TINYINT UNSIGNED NOT NULL,
     PRIMARY KEY (id_hobby_value),
     FOREIGN KEY (id_hobby) REFERENCES hobbies(id_hobby),
-    FOREIGN KEY (id_value) REFERENCES values(id_value)
+    FOREIGN KEY (id_value) REFERENCES `values`(id_value)
 );
 
 CREATE TABLE IF NOT EXISTS hobbies_soft_skills (  -- MERGE TABLE
     id_hobby_soft_skill TINYINT UNSIGNED AUTO_INCREMENT,
     id_hobby TINYINT UNSIGNED NOT NULL,
     id_soft_skill TINYINT UNSIGNED NOT NULL,
-    PRIMARY KEY (id_hobby_value),
+    PRIMARY KEY (id_hobby_soft_skill),
     FOREIGN KEY (id_hobby) REFERENCES hobbies(id_hobby),
     FOREIGN KEY (id_soft_skill) REFERENCES soft_skills(id_soft_skill)
 );
@@ -224,7 +226,7 @@ CREATE TABLE IF NOT EXISTS cv_hobbies (  -- ORDER TABLE
     id_cv TINYINT UNSIGNED NOT NULL,
     id_hobby TINYINT UNSIGNED NOT NULL,
     order_hobby TINYINT UNSIGNED,
-    PRIMARY KEY (id_cv_language),
+    PRIMARY KEY (id_cv_hobby),
     FOREIGN KEY (id_cv) REFERENCES cv(id_cv),
     FOREIGN KEY (id_hobby) REFERENCES hobbies(id_hobby)
 );
@@ -311,7 +313,7 @@ CREATE TABLE IF NOT EXISTS form_objectives (   -- JOIN TABLE
     id_form_objectif TINYINT UNSIGNED AUTO_INCREMENT,
     id_formation TINYINT UNSIGNED NOT NULL,
     objectif TINYINT UNSIGNED NOT NULL,
-    PRIMARY KEY (id_formation_objectif),
+    PRIMARY KEY (id_form_objectif),
     FOREIGN KEY (id_formation) REFERENCES formations(id_formation)
 );
 
@@ -344,11 +346,15 @@ CREATE TABLE IF NOT EXISTS experiences (
     position VARCHAR (255) NOT NULL,
     starting_date DATE NOT NULL,
     ending_date DATE,
-    isActual BOOLEAN NOT NULL,
+    is_current_job BOOLEAN DEFAULT TRUE,
     country VARCHAR (255) NOT NULL,
     city VARCHAR (255) NOT NULL,
     PRIMARY KEY (id_experience)
 );
+DROP TABLE IF EXISTS experiences;
+
+-- ALTER TABLE experiences CHANGE isActual is_current_job BOOLEAN DEFAULT TRUE;
+-- ALTER TABLE experiences MODIFY is_current_job BOOLEAN DEFAULT TRUE;
 
 CREATE TABLE IF NOT EXISTS exp_missions (   -- JOIN TABLE
     id_exp_mission TINYINT UNSIGNED AUTO_INCREMENT,
@@ -379,7 +385,7 @@ CREATE TABLE IF NOT EXISTS exp_stack (   -- MERGE TABLE
     id_experience TINYINT UNSIGNED NOT NULL,
     id_tech_stack TINYINT UNSIGNED NOT NULL,
     PRIMARY KEY (id_exp_tech_stack),
-    FOREIGN KEY (id_experience) REFERENCES experiences(id_experience)
+    FOREIGN KEY (id_experience) REFERENCES experiences(id_experience),
     FOREIGN KEY (id_tech_stack) REFERENCES stack(id_tech_stack)
 );
 
@@ -388,7 +394,7 @@ CREATE TABLE IF NOT EXISTS exp_pro_skills (   -- MERGE TABLE
     id_experience TINYINT UNSIGNED NOT NULL,
     id_pro_skill TINYINT UNSIGNED NOT NULL,
     PRIMARY KEY (id_exp_pro_skill),
-    FOREIGN KEY (id_experience) REFERENCES experiences(id_experience)
+    FOREIGN KEY (id_experience) REFERENCES experiences(id_experience),
     FOREIGN KEY (id_pro_skill) REFERENCES pro_skills(id_pro_skill)
 );
 
@@ -397,7 +403,7 @@ CREATE TABLE IF NOT EXISTS exp_soft_skills (   -- MERGE TABLE
     id_experience TINYINT UNSIGNED NOT NULL,
     id_soft_skill TINYINT UNSIGNED NOT NULL,
     PRIMARY KEY (id_exp_soft_skill),
-    FOREIGN KEY (id_experience) REFERENCES experiences(id_experience)
+    FOREIGN KEY (id_experience) REFERENCES experiences(id_experience),
     FOREIGN KEY (id_soft_skill) REFERENCES soft_skills(id_soft_skill)
 );
 
@@ -411,7 +417,3 @@ CREATE TABLE IF NOT EXISTS cv_exp (   -- ORDER TABLE
     FOREIGN KEY (id_experience) REFERENCES experiences(id_experience)
 );
 
-
-/************************************************************************************************************
-*                                                  OK                                                       *
-************************************************************************************************************/
